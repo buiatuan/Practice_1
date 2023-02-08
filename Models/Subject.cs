@@ -20,10 +20,12 @@ namespace Practice_1.Models
         public string SubjectDescription { get; set; }
 
         [Required]
+        [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{MM/dd/yyyy}")]
         public DateTime StartDate { get; set; }
 
         [Required]
+        [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{MM/dd/yyyy}")]
         public DateTime EndDate { get; set; }
 

@@ -12,6 +12,7 @@ namespace Practice_1.Models
         public string Name { get; set; }
 
         [Required]
+        [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{MM/dd/yyyy}")]
         public DateTime DateOfBirth { get; set; }
 
