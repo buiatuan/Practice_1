@@ -11,7 +11,7 @@ using Practice_1.Models;
 
 namespace Practice1.Migrations
 {
-    [DbContext(typeof(Practice_1DbContext))]
+    [DbContext(typeof(Dbcontext))]
     [Migration("20230206130543_init")]
     partial class init
     {

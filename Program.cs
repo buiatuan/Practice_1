@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var connStr = builder.Configuration.GetConnectionString("SqlServerCnn");
-builder.Services.AddDbContext<Practice_1DbContext>(options => options.UseSqlServer(connStr));
+builder.Services.AddDbContext<Dbcontext>(options => options.UseSqlServer(connStr));
 
 var app = builder.Build();
 

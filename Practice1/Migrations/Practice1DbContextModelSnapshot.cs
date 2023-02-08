@@ -10,7 +10,7 @@ using Practice_1.Models;
 
 namespace Practice1.Migrations
 {
-    [DbContext(typeof(Practice_1DbContext))]
+    [DbContext(typeof(Dbcontext))]
     partial class Practice1DbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -11,9 +11,9 @@ namespace Practice_1.Controllers
 {
     public class SubjectsController : Controller
     {
-        private readonly Practice_1DbContext _context;
+        private readonly Dbcontext _context;
 
-        public SubjectsController(Practice_1DbContext context)
+        public SubjectsController(Dbcontext context)
         {
             _context = context;
         }
